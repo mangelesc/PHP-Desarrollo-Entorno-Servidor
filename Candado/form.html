@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1.4. Candado</title>
+    </head>
+    <body>
+        <!--ACTIVIDAD 1.4
+        Escribe un programa que simule un candado.En nuestra programa, el candado vendrá representado 
+        por un array de 8 posiciones, todas ellas con el valor “false” inicialmente. Nuestro candado 
+        empezará con el botón 0 y acabará con el 7.
+        El usuario introducirá en un formulario la secuencia de botones que pulsa, separados por coma. 
+        Por ejemplo, una secuencia correcta seria: 1,2,3,4,4,4,4,3,5.
+        El programa mostrará el estado del candado después de que el usuario haya introducido la secuencia. 
+        Para la secuencia anterior, el resultado sería: false, true, true, false, false, true, false, false.-->
+
+        <div>
+            <h1><b>DAW - PRÁCTICA 02 - M07</b></h1>
+            <h4><b>MARÍA ÁNGELES C.</b><br /></h4>
+        </div>
+        <div>
+            <form action="utilidades.php" method="post">
+                <fieldset>
+                    <!--Añadimos un input al formulario de tipo  number-->
+                    <legend>Actividad 1.4</legend>
+                    Secuencia (del 0 al 7 y separada por comas):
+                    <input
+                        type="text"
+                        name="secuencia"
+                        placeholder="Ej: 3,5,3,1,5,5,7,0"
+                    />
+                    <br /><br />
+                </fieldset>
+                <br />
+                <input type="submit" name="enviar" value="Enviar" />
+            </form>
+        </div>
+    </body>
+</html>

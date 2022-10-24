@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1.3. Calculadora</title>
+    </head>
+    <body>
+        <!--ACTIVIDAD 1.3
+        Realizar una aplicación que simule una calculadora. Constará de una página 
+        HTML con dos campos de texto para introducir los dos operadores, y 4 RadioButtons 
+        para seleccionar la operación: suma, resta, multiplicación y división. Se mostrará 
+        el resultado de la operación en una segunda página con la frase 
+        “El resultado de la suma/resta/multiplicación/división es XXX”.
+        Hacer el programa usando un formulario de tipo POST.-->
+        <div>
+            <h1><b>DAW - PRÁCTICA 02 - M07</b></h1>
+            <h4><b>MARÍA ÁNGELES C.</b><br /></h4>
+        </div>
+        <div>
+            <form action="utilidades.php" method="post">
+                <fieldset>
+                    <!--Añadimos un input al formulario de tipo  number-->
+                    <legend>Actividad 1.3</legend>
+                    Operando 1: <input type="number" name="number1" />
+                    <br /><br />
+                    Operando 2: <input type="number" name="number2" />
+                    <br /><br />
+                    Operación:
+                    <input type="radio" name="operacion" value="1" /> Suma
+                    <input type="radio" name="operacion" value="2" /> Resta
+                    <input type="radio" name="operacion" value="3" />
+                    Multiplicación
+                    <input type="radio" name="operacion" value="4" />
+                    División
+                    <br /><br />
+                </fieldset>
+                <br />
+                <input type="submit" name="enviar" value="Enviar" />
+            </form>
+        </div>
+    </body>
+</html>
