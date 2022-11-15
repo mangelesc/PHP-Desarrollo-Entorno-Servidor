@@ -55,7 +55,7 @@
         }
 
         function __toString(){
-		return "<b>WIZARD:</b> Name: ".parent::__toString().
+		return "<b>EXPLORER:</b> Name: ".parent::__toString().
                 " | Objects found: ".$this->objects.
                 " | Times unnoticed: ".$this->hidden."<br>";
         }
