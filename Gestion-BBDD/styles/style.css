@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arvo", serif;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: #e2fadb;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header div h1 {
+    margin: 1em 1em;
+    text-align: center;
+    background-color: #e2fadb;
+}
+
+header div h4 {
+    text-align: center;
+    margin: 1em 1em;
+    background-color: #e2fadb;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.container-main div,
+.table-div {
+    margin: 30px 50px;
+    padding: 20px;
+    border-radius: 3%;
+    margin: 10px 30px 10px 0px;
+    background-color: #abcdd37c;
+    width: 430px;
+    min-height: 150px;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0px 30px;
+}
+
+.home {
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+.home div {
+    padding: 15px 0px 0px 0px;
+}
+.home input {
+    width: 100%;
+    padding: 16px 16px;
+    padding: 5px 10px;
+}
+
+.actions {
+    padding: 20px;
+    border-radius: 10%;
+    margin: 10px 30px 10px 0px;
+    background-color: #abcdd37c;
+    width: 250px;
+    min-height: 270px;
+}
+
+form label {
+    font-size: 14;
+}
+form input[type="text"],
+form input[type="password"] {
+    padding: 16px 16px;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    background-color: rgb(155, 148, 148);
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+}
